@@ -1,0 +1,197 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+.porTada{
+    width: 1495px;
+    height: 600px;
+    margin: 0%;
+    grid-area: portada;
+    }
+.tiTulo{
+    color: rgb(7, 187, 241);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    grid-area: titulo;
+}
+.cuaTrom{
+    width: 150px;
+    height: 150px;
+    float: right;
+    grid-area: 4m;
+}
+.portadaTitulo{
+    display: grid;
+    grid-template-areas: 
+    "portada portada portada"
+    "titulo titulo 4m";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.barraNav{
+    background-color: rgb(185, 182, 177);
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: 500;
+    gap: 10px;
+    margin: 3vh;
+    padding: 2px 5px 2px 5px;
+    }
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.asoCiate{
+    color: rgb(7, 187, 241);
+    background-color: black;
+    font-size: 30px;
+    border: 2px solid rgb(7, 187, 241);
+    padding: 3px 15px 3px 15px;
+    margin: 10vh 0vh 0vh 5vh;
+    
+
+}
+section h1{
+    color: rgb(7, 187, 241);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    display:flex;
+    justify-content: center;
+    }
+.noticiaUno{
+    width: 243px;
+    height: 140px;
+}
+.noticiaDos{
+    width: 243px;
+    height: 140px;
+}
+
+footer{
+    background-color: rgb(185, 182, 177);
+    height: 60px;
+    margin: 0%;
+    max-width: 100%;
+    }
+footer p{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    
+}
+.redesSociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+
+/* TIENDA **/
+.encabezadoTienda{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    align-items: center;
+}
+header img{
+    width: 150px;
+    height: 150px;
+    margin: 40px 40px 0px 40px;
+}
+
+.tituloTienda{
+    color: rgb(7, 187, 241);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    }
+.asociateTienda{
+    color: rgb(7, 187, 241);
+}
+.fondoTienda{
+    background-image: url(https://scontent.fcor10-3.fna.fbcdn.net/v/t39.30808-6/276989234_2585844618215240_5545074541453930424_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=QoYC7iluWVYAX_KlnOp&_nc_ht=scontent.fcor10-3.fna&oh=00_AT-CaK01ExLsHIyXJuokwPwl6PCmzpqx1HWohWJk1rwYiw&oe=63377BE2);
+    background-repeat: no-repeat;
+    background-size:1500px 1800px;
+}
+.productosTienda{
+    width: 350px;
+    height: 250px;
+}
+.titulosProd{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/*ASOCIATE**/
+.portadaAsoc{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.fraseAsoc{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+}
+main{
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+.convertiteIdolo{
+    background-image: url(https://scontent.fcor10-4.fna.fbcdn.net/v/t39.30808-6/275332153_2573806876085681_1879780663002859168_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=yiQURTWvlOwAX8hDo0Q&_nc_ht=scontent.fcor10-4.fna&oh=00_AT_cFVspdOasXCsmoxG-D7j0BlRIYwdQ_12kC01a_3Cc1w&oe=63361671);
+    background-repeat: no-repeat;
+    background-size: 700px 500px;
+    font-size: 50px;
+    color: rgb(12, 146, 187);
+    text-shadow: black;
+}
+.formularioImag{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.formuLario{
+    background-color: rgba(211, 220, 221, 0.795);
+    }
+.tituloForm{
+    color: rgb(7, 187, 241);
+}
+/*DICIPLINAS**/
+.diciPlinas{
+    background-color: rgb(12, 146, 187);
+    height: 100vh;
+    margin: auto;
+    color: aliceblue;
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif;
+    }
+.listaDep{
+    padding: 20px;
+    list-style: none;
+}
+/*CONTACTOS**/
+.conTacto{
+    background-color: rgb(12, 146, 187);
+    height: 100vh;
+    margin: 10px;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    }
+
+.reDes{
+    color: aliceblue;
+    align-items: center;
+}
